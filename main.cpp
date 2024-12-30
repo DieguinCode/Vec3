@@ -354,8 +354,8 @@ int main(){
                     drawVector(res.at(0), shaderProgram, projection, 0.0f, 0.0f, 1.0f);
                     drawVector(res.at(1), shaderProgram, projection, 1.0f, 0.0f, 0.0f);
                 }else{
-                    drawVector(res.at(0), shaderProgram, projection, 1.0f, 0.0f, 0.0f);
-                    drawVector(res.at(1), shaderProgram, projection, 0.0f, 0.0f, 1.0f);
+                    drawVector(res.at(1), shaderProgram, projection, 1.0f, 0.0f, 0.0f);
+                    drawVector(res.at(0), shaderProgram, projection, 0.0f, 0.0f, 1.0f);
                 }
             }
 
